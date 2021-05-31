@@ -2,6 +2,7 @@ $ErrorActionPreference = 'Stop'
 $ProgressPreference = 'SilentlyContinue'
 [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
 
+
 $awscli = 'https://s3.amazonaws.com/aws-cli/AWSCLI64PY3.msi'
 
 ## installs awscli inside container
